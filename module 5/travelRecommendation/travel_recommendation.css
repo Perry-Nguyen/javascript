@@ -1,0 +1,28 @@
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+#homepage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
