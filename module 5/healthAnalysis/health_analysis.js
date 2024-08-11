@@ -75,7 +75,6 @@ function searchCondition() {
       .then(response => response.json())
       .then(data => {
         const condition = data.conditions.find(item => item.name.toLowerCase() === input);
-
         if (condition) {
           const symptoms = condition.symptoms.join(', ');
           const prevention = condition.prevention.join(', ');
