@@ -9,6 +9,17 @@
     background-color: black;
     color: white;
 }
+#container_title_icon{
+    display: flex;
+    align-items: center;
+}
+#container_title_icon img{
+    height: auto;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px;
+    padding-right: 10px;
+}
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -16,7 +27,7 @@ nav ul {
 
 nav {
     
-    padding: 20px;
+    padding: 10px 0 10px 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
