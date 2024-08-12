@@ -63,7 +63,7 @@ img{
 
 .vertical_line{
     border-left: 3px solid white;
-    height: 400px;
+    height: 60%;
     left: 50%;
     margin-left: 3px;
 
@@ -78,14 +78,36 @@ img{
 }
 
 .container1 img{
-    height: 75px;
-    width: 75px;
+    width: 40px;
 }
-.verticle_line_container{
+.vertical_line_container{
   height: 50%;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 .social_icons{
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social_icons li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container2 div{
+    width: 20%;
+}
+.container2 h1{
+    color: white;
+    font-size: 72px;
+    text-wrap: wrap;
 }
