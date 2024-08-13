@@ -48,7 +48,7 @@ nav ul li a{
     display: flex;
     align-items: center;
 }
-.social_icons img{
+img{
     filter: brightness(0) invert(1);
 }
 .backvideo{
@@ -102,81 +102,14 @@ nav ul li a{
     flex-direction: column;
     align-items: flex-start;
     margin-left: 10%;
-    height: 100%;
-    justify-content: space-evenly;
 }
 
+.container2 div{
+    width: 20%;
+    padding-bottom: 3%;
+}
 .container2 h1{
     color: white;
     font-size: 72px;
     text-wrap: wrap;
-}
-
-.container3{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-
-}
-.container4{
-    height: 12%;
-}
-.about_us_container{
-    margin-bottom: 30px;
-}
-.team_member_icons_container{
-    display: flex;
-    margin-right: 12px;
-}
-.team_member_icon img{
-    height: 30px;
-    margin-right: 12px;
-}
-.team_member_container{
-    width: 300px;
-    height: 150px;
-    padding: 12px;
-    background-color: rgba(0, 0,0,0.4);
-}
-.team{
-    padding-top: 10px;
-
-}
-.team h3{
-    color: white;
-}
-.team p{
-    color: white;
-}
-.about_content{
-    color:white;
-    font-size: 23px;
-    width: 91%;
-    background-color: rgba(0,0,0,.4);
-    padding: 24px;
-}
-
-.container3 h2{
-    color: white;
-    font-size: 64px;
-    text-wrap: wrap;
-}
-.about_us_container{
-   width: 97%;
-}
-.text-container{
-    width: 200px;
-}
-
-button{
-    width: 200px;
-    height: 32px;
-    text-align: center;
-    background-color: blue;
-    color: white;
-    border-style: solid;
-    border-color: grey;
-    border-width: 1px;
-    border-radius: 10px;
 }
